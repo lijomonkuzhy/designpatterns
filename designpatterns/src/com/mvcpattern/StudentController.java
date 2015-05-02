@@ -13,6 +13,7 @@ public class StudentController {
 		this.studentView = studentView;
 	}
 
+	// control model data via controller
 	public void setStudentName(String studentName) {
 		this.studentModel.setName(studentName);
 	}
@@ -21,6 +22,7 @@ public class StudentController {
 		return studentModel.getName();
 	}
 
+	// update model data via controller
 	public void setStudentRollNo(String studentRollNum) {
 		this.studentModel.setRollNo(studentRollNum);
 	}
@@ -29,6 +31,7 @@ public class StudentController {
 		return studentModel.getRollNo();
 	}
 
+	// update view via controller
 	public void printView() {
 		studentView.printStudentDetails(studentModel.getName(),
 				studentModel.getRollNo());
