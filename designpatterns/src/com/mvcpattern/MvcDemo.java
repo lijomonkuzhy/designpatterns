@@ -17,6 +17,10 @@ public class MvcDemo {
 
 		// update model data via controller
 		studentController.setStudentName("John");
+		
+
+		// print view details via controller
+		studentController.printView();
 
 	}
 

@@ -10,7 +10,6 @@ public class StudentView {
 	public void printStudentDetails(String name, String rollNum) {
 		System.out.println("Student Name: " + name);
 		System.out.println("Student Roll Num: " + rollNum);
-
 	}
 
 }
